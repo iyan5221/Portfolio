@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balasubramaniyan Prasad | The Multiverse Engineer</title>
+    <meta name="description" content="Portfolio of Balasubramaniyan Prasad - Full Stack Developer, AI/ML Enthusiast, and Game/VR Creator. Welcome to the Multiverse.">
+    <!-- Google Fonts: Outfit (Headings) and Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dimension-all">
+    <!-- Canvas Portal Background -->
+    <canvas id="portal-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-brand">BP<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Origin</a></li>
+            <li><a href="#about">The Architect</a></li>
+            <li><a href="#skills">Artifacts</a></li>
+            <li><a href="#projects">Dimensional Rifts</a></li>
+            <li><a href="#experience">Chronicle</a></li>
+            <li><a href="#contact">Terminal</a></li>
+        </ul>
+        <div class="nav-controls">
+            <button id="theme-toggle" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-menu">
+        <ul class="mobile-links">
+            <li><a href="#hero">Origin</a></li>
+            <li><a href="#about">The Architect</a></li>
+            <li><a href="#skills">Artifacts</a></li>
+            <li><a href="#projects">Dimensional Rifts</a></li>
+            <li><a href="#experience">Chronicle</a></li>
+            <li><a href="#contact">Terminal</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="fullscreen-section">
+            <div class="hero-content">
+                <p class="hero-greeting">Initialize &gt;_ Hello, I am</p>
+                <h1 class="hero-name">Balasubramaniyan <br><span class="gradient-text">Prasad</span></h1>
+                <h2 class="hero-title">The Multiverse Engineer</h2>
+                <div class="typing-container">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn">Enter the Multiverse</a>
+                    <a href="assets/resume.pdf" class="btn secondary-btn" download="Balasubramaniyan_Prasad_Resume.pdf"><i class="fas fa-download"></i> Extract Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:iyanprasad5221@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll to explore</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">The Architect <span class="bg-text">ABOUT</span></h2>
+                <div class="about-grid">
+                    <div class="about-text glass-panel">
+                        <h3>Who am I?</h3>
+                        <p>I am a highly adaptable Full Stack Developer with a passion for exploring the intersection of multiple technological dimensions. My expertise spans <strong>Web Application Development</strong>, <strong>Machine Intelligence</strong>, and <strong>Immersive VR</strong>.</p>
+                        <p>Currently engineering solutions at <strong>LTIMindtree</strong>, I bring a growth mindset to solving complex problems and building impactful, scalable real-world applications across various tech stacks.</p>
+                        
+                        <div class="personal-details">
+                            <div><i class="fas fa-map-marker-alt"></i> Chennai, India</div>
+                            <div><i class="fas fa-phone-alt"></i> +91 9840757120</div>
+                        </div>
+
+                        <div class="interpersonal-skills">
+                            <span class="skill-tag">Strong Communication</span>
+                            <span class="skill-tag">Problem-Solving Mindset</span>
+                            <span class="skill-tag">Adaptability</span>
+                            <span class="skill-tag">Team Collaboration</span>
+                            <span class="skill-tag">Time Management</span>
+                        </div>
+                    </div>
+                    
+                    <div class="academics-panel glass-panel">
+                        <h3>Academics</h3>
+                        <div class="academic-item">
+                            <div class="academic-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="academic-details">
+                                <h4>MCA - Master of Computer Applications</h4>
+                                <p>SASTRA Deemed University, Thanjavur (2023 - 2025)</p>
+                                <span class="grade">CGPA: 8.44</span>
+                            </div>
+                        </div>
+                        <div class="academic-item">
+                            <div class="academic-icon"><i class="fas fa-plane"></i></div>
+                            <div class="academic-details">
+                                <h4>B.Sc Aviation</h4>
+                                <p>Remo International College, Alagappa University (2019 - 2022)</p>
+                                <span class="grade">Percentage: 85.0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Acquired Artifacts <span class="bg-text">SKILLS</span></h2>
+                <p class="section-subtitle">Technological systems mastered across dimensions.</p>
+
+                <div class="skills-container">
+                    <!-- Web & Cloud Dimension -->
+                    <div class="skill-category glass-panel category-web">
+                        <h3><i class="fas fa-cloud"></i> Web & Cloud Dimension</h3>
+                        <div class="skill-list">
+                            <div class="skill-bar" data-level="90"><span class="skill-name">Java, Python, C#</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="85"><span class="skill-name">Angular & .NET Core</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="80"><span class="skill-name">React.js & MERN Stack</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="75"><span class="skill-name">Django & Python Web</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="85"><span class="skill-name">SQL Server, PostgreSQL, SQLite</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="70"><span class="skill-name">AWS & Azure Cloud</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Machine Intelligence Dimension -->
+                    <div class="skill-category glass-panel category-ai">
+                        <h3><i class="fas fa-brain"></i> Machine Intelligence Dimension</h3>
+                        <div class="skill-list">
+                            <div class="skill-bar" data-level="85"><span class="skill-name">Gen AI & Prompt Engineering</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="80"><span class="skill-name">OpenAI API & LLM Integration</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="75"><span class="skill-name">Machine Learning Models</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="70"><span class="skill-name">Power BI & SQL Analytics</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                        </div>
+                    </div>
+
+                    <!-- Immersive Dimension -->
+                    <div class="skill-category glass-panel category-vr">
+                        <h3><i class="fas fa-vr-cardboard"></i> Immersive & 3D Dimension</h3>
+                        <div class="skill-list">
+                            <div class="skill-bar" data-level="85"><span class="skill-name">Unity 3D</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="75"><span class="skill-name">Blender (3D Modeling)</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="80"><span class="skill-name">Adobe Premiere Pro</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                            <div class="skill-bar" data-level="70"><span class="skill-name">AR/VR Development</span><div class="bar-bg"><div class="bar-fill"></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Dimensional Rifts <span class="bg-text">PROJECTS</span></h2>
+                <p class="section-subtitle">A glimpse into the systems I've architected.</p>
+
+                <!-- Dimension Filter -->
+                <div class="dimension-filters">
+                    <button class="filter-btn active" data-filter="all">All Dimensions</button>
+                    <button class="filter-btn" data-filter="web">Web & Cloud</button>
+                    <button class="filter-btn" data-filter="ai">Machine Intelligence</button>
+                    <button class="filter-btn" data-filter="vr">Immersive & 3D</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: VR -->
+                    <div class="project-card glass-panel" data-category="vr" onclick="openModal('modal-vr')">
+                        <div class="project-image vr-bg">
+                            <div class="dimension-badge vr-badge"><i class="fas fa-vr-cardboard"></i> Immersive</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>VR Pedestrian Road Safety Anticipation</h3>
+                            <p>Enhancing road safety through realistic Virtual Reality simulations for pedestrians.</p>
+                            <div class="tech-stack-mini">
+                                <span>Unity 3D</span><span>Blender</span><span>C#</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Web / Cloud -->
+                    <div class="project-card glass-panel" data-category="web" onclick="openModal('modal-web')">
+                        <div class="project-image web-bg">
+                            <div class="dimension-badge web-badge"><i class="fas fa-cloud"></i> Web & Cloud</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Scalable AWS Cloud Web Deployment</h3>
+                            <p>Highly scalable cloud-native web app with LSTM-driven demand forecasting.</p>
+                            <div class="tech-stack-mini">
+                                <span>MERN</span><span>AWS</span><span>Spark</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: AI / ML -->
+                    <div class="project-card glass-panel" data-category="ai" onclick="openModal('modal-ai')">
+                        <div class="project-image ai-bg">
+                            <div class="dimension-badge ai-badge"><i class="fas fa-brain"></i> Intelligence</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Real-Time YOLOv8 Crowd Analytics</h3>
+                            <p>High-performance computer vision pipeline for live video multi-person counting.</p>
+                            <div class="tech-stack-mini">
+                                <span>Python</span><span>YOLOv8</span><span>OpenCV</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">The Chronicle <span class="bg-text">EXPERIENCE</span></h2>
+                
+                <div class="timeline">
+                    <!-- LTIMindtree Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <div class="timeline-header">
+                                <h3>Full Stack Developer</h3>
+                                <span class="company">LTIMindtree | Chennai</span>
+                                <span class="date">Sept 2025 – Present</span>
+                            </div>
+                            <ul class="timeline-details">
+                                <li>Developed and maintained web applications using Angular and .NET Core.</li>
+                                <li>Built and consumed RESTful APIs for dynamic data handling and integration.</li>
+                                <li>Implemented authentication and authorization using JWT.</li>
+                                <li>Optimized application performance, resolving critical bugs.</li>
+                                <li>Worked with SQL Server, PostgreSQL, and SQLite for data storage and query optimization.</li>
+                                <li>Created sales analytics dashboards utilizing Power BI.</li>
+                                <li>Trained an AI agent for upgrading Angular 4 applications to higher versions using Prompt Engineering.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Achievements -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-panel">
+                            <div class="timeline-header">
+                                <h3>Key Achievements & Certifications</h3>
+                                <span class="company">Various</span>
+                            </div>
+                            <ul class="timeline-details">
+                                <li><strong>Top 5 Performer</strong> - Unity Game Designing and Development (inter-dept).</li>
+                                <li><strong>Winner</strong> - Debate on "Is technology good or bad?".</li>
+                                <li><strong>Certification</strong> - Machine Learning A-Z: AI, Python & R (Udemy).</li>
+                                <li><strong>Certification</strong> - Web Development Course (Udemy).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Terminal Access <span class="bg-text">CONTACT</span></h2>
+                <p class="section-subtitle">Initialize communication protocol.</p>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info glass-panel">
+                        <h3>Connect with the Engineer</h3>
+                        <p>Eager to contribute fresh ideas, technical excellence, and high-energy collaboration.</p>
+                        
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:iyanprasad5221@gmail.com">iyanprasad5221@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div>
+                                <h4>Comm-Link</h4>
+                                <a href="tel:+919840757120">+91 9840757120</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Coordinates</h4>
+                                <p>Chennai, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form glass-panel">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" required>
+                                <label for="name">Your Designation (Name)</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" required>
+                                <label for="email">Transmission Frequency (Email)</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" rows="5" required></textarea>
+                                <label for="message">Payload (Message)</label>
+                            </div>
+                            <button type="submit" class="btn primary-btn"><i class="fas fa-paper-plane"></i> Transmit Data</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">Balasubramaniyan Prasad</div>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="mailto:iyanprasad5221@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Balasubramaniyan Prasad. All Dimensions Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modals for Projects -->
+    <div class="modal-overlay" id="modal-overlay"></div>
+    
+    <!-- VR Modal -->
+    <div class="modal" id="modal-vr">
+        <button class="close-modal"><i class="fas fa-times"></i></button>
+        <div class="modal-body">
+            <div class="dimension-badge vr-badge modal-badge"><i class="fas fa-vr-cardboard"></i> Immersive</div>
+            <h2>Using Virtual Reality to Enhance Pedestrian Road Safety</h2>
+            <div class="modal-tech">
+                <span>Unity 3D</span><span>Blender</span><span>C# Scripts</span><span>AR/VR</span><span>Visual Studio</span><span>Adobe Premiere Pro</span>
+            </div>
+            <p>This project uses Virtual Reality (VR) to create a safe, realistic environment where pedestrians can practice crossing roads by anticipating vehicle speed and distance.</p>
+            <p><strong>Goal:</strong> To help people make safer decisions when crossing, reducing accidents and improving road safety in urban areas.</p>
+        </div>
+    </div>
+
+    <!-- Web Modal -->
+    <div class="modal" id="modal-web">
+        <button class="close-modal"><i class="fas fa-times"></i></button>
+        <div class="modal-body">
+            <div class="dimension-badge web-badge modal-badge"><i class="fas fa-cloud"></i> Web & Cloud</div>
+            <h2>Efficient Deployment of Web Application Using Cluster Creation</h2>
+            <div class="modal-tech">
+                <span>React.js</span><span>LSTM ML Model</span><span>Express</span><span>MongoDB</span><span>AWS Cloud</span><span>RazorPay</span><span>Apache Spark</span><span>JMeter</span>
+            </div>
+            <p>Engineered a highly scalable, cloud-native web application on AWS using the MERN stack, incorporating LSTM-driven predictive analytics for intelligent demand forecasting.</p>
+            <p>Designed an elastic architecture with EC2 Auto Scaling Groups (ASG), Elastic Load Balancing (ELB), and AWS CloudFormation for Infrastructure as Code (IaC). Optimized computational efficiency through distributed data processing with Apache Spark and conducted performance stress testing using Apache JMeter to ensure high availability, fault tolerance, and cost-effective scalability.</p>
+        </div>
+    </div>
+
+    <!-- AI Modal -->
+    <div class="modal" id="modal-ai">
+        <button class="close-modal"><i class="fas fa-times"></i></button>
+        <div class="modal-body">
+            <div class="dimension-badge ai-badge modal-badge"><i class="fas fa-brain"></i> Intelligence</div>
+            <h2>Real-Time AI-Based Multi-Person Detection and Counting System</h2>
+            <div class="modal-tech">
+                <span>Python</span><span>YOLOv8</span><span>OpenCV</span><span>Deep Learning</span><span>NumPy</span>
+            </div>
+            <p>Developed a high-performance real-time people detection and crowd analytics system using Python, YOLOv8, OpenCV, and Deep Learning.</p>
+            <p>Built an intelligent computer vision pipeline capable of accurately detecting, tracking, and counting multiple individuals through live video streams with optimized speed and precision. Enhanced detection performance across crowded environments, low-light conditions, and complex backgrounds, showcasing advanced expertise in AI, Computer Vision, and real-time surveillance automation.</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
