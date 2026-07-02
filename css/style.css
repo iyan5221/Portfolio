@@ -435,8 +435,8 @@ ul {
 
 .scroll-indicator {
     position: absolute;
-    bottom: 40px;
-    left: 50%;
+    bottom: 50px;
+    left: 85%;
     transform: translateX(-50%);
     text-align: center;
     opacity: 0;
